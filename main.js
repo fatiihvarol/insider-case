@@ -60,7 +60,7 @@
         const css = `
             .custom-carousel { text-align: left; margin-top: 20px; padding-left: 10px; }
             .carousel-wrapper { display: flex; align-items: center; position: relative; }
-            .carousel-items { display: flex; overflow-x: auto; gap: 10px; padding: 10px; scroll-behavior: smooth; }
+            .carousel-items { display: flex; overflow-x: auto; gap: 10px; padding: 10px; scroll-behavior: smooth ;  overflow: hidden; }
             .carousel-item { min-width: 250px; max-width: 300px; cursor: pointer; border: 1px solid #ccc; text-align: left; background: #fff; display: flex; flex-direction: column; position: relative; justify-content: space-between; }
             .carousel-item img { width: 100%; height: auto; border-radius: 5px; }
             .product-name { font-size: 14px; white-space: normal; overflow: hidden; text-overflow: ellipsis; word-wrap: break-word; margin-top: 5px; }
